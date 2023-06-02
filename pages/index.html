@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cafetería Artesanal</title>
   <link rel="stylesheet" type="text/css" href="../styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="../styles/inicio.css">
-  <script src="../scripts/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/inicio.css">
 </head>
 <body onload="incrementarContador()">
-  <header>
-    <div class="header-container">
-      <div class="logo">
-        <img src="../img/logo.png" alt="Logo">
-      </div>
-      <nav id="navbar">
-        <a href="./index.html">Inicio</a>
-        <a href="./nosotros.html">Nuestro Café</a>
-        <a href="./contacto.html">Contacto</a>
-        <!-- <a href="#">Promociones</a>
-        <a href="#">Contacto</a> -->
-      </nav>
-      <div class="search-bar">
-        <input type="text" placeholder="Buscar..." class="desktop-search">
-        <button class="desktop-search">Buscar</button>
-      </div>
-      <div id="menu-icon" onclick="toggleMenu()">&#9776;</div>
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="../img/logo.png" alt="Logo">
     </div>
-  </header>
+    <nav id="navbar">
+      <a href="./index.html">Inicio</a>
+      <a href="./nosotros.html">Nuestro Café</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar..." class="desktop-search">
+      <button class="desktop-search">Buscar</button>
+    </div>
+    <div id="menu-icon" onclick="toggleMenu()">&#9776;</div>
+  </div>
+</header>
   
   <main>
     <h1>Bienvenido a Cafetería Artesanal</h1>
@@ -79,5 +79,8 @@
     <p>Informacion legal   |   Politica de privacidad</p>
     <p id="contadorVisitas"></p>
   </footer>
+
+  <script src="../scripts/script.js"></script>
+
 </body>
 </html>
