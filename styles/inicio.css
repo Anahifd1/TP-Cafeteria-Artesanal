@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------body-----------------------------*/
+
+body
+{
+    background: burlywood;
+}
+
+
+/*-----------------------------------index--------------------------*/
+h1
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box 
+  {
+    flex: 1 0 100%;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .box img 
+  {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .box h2 
+  {
+    margin-top: 10px;
+  }
+  
+  /* Media queries */
+  @media (min-width: 480px) {
+    .box {
+      flex-basis: 50%;
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .box {
+      flex-basis: 33.33%;
+      max-width: calc(33.33% - 20px);
+    }
+  }
+  
+
+  .image-container 
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  .imgdescuentos 
+  {
+    width: 50%;
+    max-width: 300px;
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+
+/*---------------secciones del memu-------------------------------*/
+/*-------contenedor producto------*/
+
+.containerproductos 
+{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(212, 168, 110);
+}
+
+.productos 
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+    .productos {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .productos {
+        width: 33.33%;
+    }
+}
+
+
+
+
+
+/*----------------------------sobre nosotros--------------------------*/
+.historia1 
+{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(212, 168, 110);
+}
+
+.historia1 p 
+{
+    font-size: 20px;
+    color: #333;
+}
+
+
+.containerimg 
+{
+    display: flex;
+    width: 70%;
+    margin-top: 10px auto;
+    text-align: center;
+}
+
+.containerimg .image 
+{
+    display: block;
+    margin: 0 auto;
+    float: right;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+ }
+
+ .containerimg p
+ {
+    margin-left: 10px;
+ }
+
+
+ 
+/*--------------------------contacto----------------------------------*/
+h2
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+
+form {
+    background-color: beige; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+input[type="submit"] {
+    background-color: #d2b48c; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background-color: #b8860b; 
+}
+
+.info3
+{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
