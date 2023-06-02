@@ -61,6 +61,10 @@ body {
     margin-left: 10px;
     cursor: pointer;
   }
+
+  .desktop-search{
+    margin-bottom: 0!important;
+  }
   
   /* Estilos para el menú de hamburguesa */
   #menu-icon {
