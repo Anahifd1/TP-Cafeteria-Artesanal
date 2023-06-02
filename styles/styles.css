@@ -36,9 +36,12 @@ body {
   }
   
   nav a {
-    color: #111010;
+    color: #0a0a0a;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
   }
   
   /* Estilos para la barra de búsqueda */
@@ -98,10 +101,10 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: fixed;
+   /* position: fixed; */
     bottom: 0;
     left: 0;
-    width: 100%;
+   /* width: 100%; */
   }
   
   .social-icons {
@@ -113,6 +116,11 @@ body {
     height: 30px;
     margin-right: 10px;
   }
+
+ /* main {
+    min-height: 70vh;
+
+  } */
   
   /* Estilos adicionales para hacerlo responsive */
   @media screen and (max-width: 600px) {
