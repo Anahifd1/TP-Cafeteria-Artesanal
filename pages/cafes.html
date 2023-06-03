@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,70 +12,72 @@
 
 <body>
 
-<header>
-    <div class="header-container">
-        <div class="logo">
-        <img src="../img/logo.png" alt="Logo">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo">
+            </div>
+            <nav id="navbar">
+                <a href="./index.html">Inicio</a>
+                <a href="./nosotros.html">Nuestro Café</a>
+                <a href="./contacto.html">Contacto</a>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar..." class="desktop-search">
+                <button class="desktop-search">Buscar</button>
+            </div>
+            <div id="menu-icon" onclick="toggleMenu()">&#9776;</div>
         </div>
-        <nav id="navbar">
-        <a href="./index.html">Inicio</a>
-        <a href="./nosotros.html">Nuestro Café</a>
-        <a href="./contacto.html">Contacto</a>
-        </nav>
-        <div class="search-bar">
-        <input type="text" placeholder="Buscar..." class="desktop-search">
-        <button class="desktop-search">Buscar</button>
+    </header>
+
+    <main>
+        <div class="containerproductos">
+            <div class="productos">
+                <h3>Capuccino</h3>
+                <p>$150.50</p>
+            </div>
+
+            <div class="productos">
+                <h3>Expresso</h3>
+                <p>$550</p>
+            </div>
+
+            <div class="productos">
+                <h3>Cortado</h3>
+                <p>$590</p>
+            </div>
+
+            <div class="productos">
+                <h3>Descafeinado</h3>
+                <p>$850</p>
+            </div>
+
+            <div class="productos">
+                <h3>Doble</h3>
+                <p>$800</p>
+            </div>
+
+            <div class="productos">
+                <h3>Chocolatada</h3>
+                <p>$700</p>
+            </div>
+
+
         </div>
-        <div id="menu-icon" onclick="toggleMenu()">&#9776;</div>
-    </div>
-</header>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="../img/facebook.ico" alt="Facebook"></a>
+            <a href="#"><img src="../img/linkedin.ico" alt="Twitter"></a>
+            <a href="#"><img src="../img/instagram.ico" alt="Instagram"></a>
+        </div>
+        <p>Derechos de autor &copy; 2023 - Cafetería Artesanal</p>
+        <p>Informacion legal | Politica de privacidad</p>
+        <p id="contadorVisitas"></p>
+    </footer>
 
-<div class="containerproductos">
-    <div class="productos">
-        <h3>Capuccino</h3>
-        <p>$150.50</p>
-    </div>
-
-    <div class="productos">
-        <h3>Expresso</h3>
-        <p>$550</p>
-    </div>
-
-    <div class="productos">
-        <h3>Cortado</h3>
-        <p>$590</p>
-    </div>
-
-    <div class="productos">
-        <h3>Descafeinado</h3>
-        <p>$850</p>
-    </div>
-
-    <div class="productos">
-        <h3>Doble</h3>
-        <p>$800</p>
-    </div>
-
-    <div class="productos">
-        <h3>Chocolatada</h3>
-        <p>$700</p>
-    </div>
-        
-
-</div>
-
-<footer>
-    <div class="social-icons">
-      <a href="#"><img src="../img/facebook.ico" alt="Facebook"></a>
-      <a href="#"><img src="../img/linkedin.ico" alt="Twitter"></a>
-      <a href="#"><img src="../img/instagram.ico" alt="Instagram"></a>
-    </div>
-    <p>Derechos de autor &copy; 2023 - Cafetería Artesanal</p>
-    <p>Informacion legal   |   Politica de privacidad</p>
-    <p id="contadorVisitas"></p>
-  </footer>
-
-<script src="../scripts/script.js"></script>
+    <script src="../scripts/script.js"></script>
 
 </body>
+
 </html>
